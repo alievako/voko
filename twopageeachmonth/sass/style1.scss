@@ -1,0 +1,172 @@
+$yellow: #ffbb00;
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    p{
+        // margin: 0;
+        // padding: 0;
+    }
+}
+.header-sec{
+    .wrapper{
+        position: relative;
+        height: 100vh;
+        .slider-area{
+            position: absolute;
+            height: 100vh;
+            width: 100%;
+            top: 0;
+            left: 0;
+            .owl-item div{
+                height: 100vh;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50% 50%;
+            }
+            div{
+                .slider-text{
+                    position: absolute;
+                    left: 10%;
+                    z-index: 10;
+                    top: 40%;
+                    // text-align: center;
+                    h2{
+                        text-transform: uppercase;
+                        font-size: 50px;
+                        color:#fff;
+                    }
+                    h3{
+                        color: rgba(255,255,255,0.49);
+                    }
+                }
+            }
+        }
+        .nav-area{
+            position: absolute;
+            top: 5%;
+            // left: 50%;
+            text-align: center;
+            z-index: 10;
+            width: 80%;;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .logo{
+                // text-transform: uppercase;
+                a{
+                    font-size: 50px;
+                    color: white;
+                    &:hover{
+                        text-decoration: none;
+                        color: $yellow;
+                        transition: .7s;
+                        span{
+                            color: white;
+                        }
+                    }
+                    span{
+                        color: $yellow;
+                    }
+                }
+                div{
+                    text-align: right;
+                    a{
+                        color: $yellow;
+                        text-align: right;
+                        text-transform: uppercase;
+                        letter-spacing: 4px;
+                        font-size: 14px;
+                        &:hover{
+                            color: #fff;
+                            transition: .7s;
+                        }
+                    }
+                }
+            }
+            .nav {
+                a{
+                    text-decoration: none;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: #fff;
+                    padding: 0 15px;
+                    &:hover{
+                        color: $yellow;
+                        transition: .3s;
+                    }
+                    .underline{
+                        display: flex;
+                        align-items: center;
+                        .first-child{
+                            height: 2px;
+                            width: 42%;
+                            background-color: $yellow;
+                        }
+                        .second-child{
+                            height: 10px;
+                            width: 16%;
+                            border-radius: 50%;
+                            border: 2px solid $yellow;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}
+.services-sec{
+    // background-image: url('/images/services.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding: 100px 0;
+    .section-title-container{
+        .section-title{
+            h1{
+                font-size: 110px;
+                font-weight: 700;
+                color: #1a1a1a;
+                line-height: 1.2;
+            }
+        }
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            color: #1a1a1a;
+        }
+    }
+    .services-row{
+        .service-slider{
+            .slider-top{
+                background-color: $yellow;
+                margin: 15px;
+                padding: 25px;
+                color: #1a1a1a;
+                &:hover{
+                    background-color: #1a1a1a;
+                    transition: .9s;
+                    cursor: pointer;
+                    h1{
+                        color: $yellow;
+                    }
+                    p{
+                        color: #fff;
+                    }
+                }
+                h1{
+                    font-weight: bold;
+                }
+                p{
+
+                }
+            }
+        }
+    }
+}
