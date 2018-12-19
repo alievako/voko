@@ -18,4 +18,9 @@ $(document).ready(function(){
         }
     })
     new WOW().init();
+    // $('.box-carousel').owlCarousel({
+    //     stagePadding: 100
+    // })
 });
+
+// console.log("hello world");
