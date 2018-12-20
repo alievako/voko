@@ -210,8 +210,65 @@ body {
       .footer-sec .contact-sec .contact-side ul li p {
         padding-left: 15px;
         font-size: 15px; }
-    .footer-sec .contact-sec .contact-side ul li.social-items i {
-      background-color: #ffbb00;
-      border-radius: 50%; }
+    .footer-sec .contact-sec .contact-side ul li.social-items {
+      justify-content: space-between;
+      margin-top: 33px; }
+      .footer-sec .contact-sec .contact-side ul li.social-items a {
+        color: #fff; }
+        .footer-sec .contact-sec .contact-side ul li.social-items a:hover i {
+          background-color: #fff;
+          color: #1a1a1a;
+          transition: .5s; }
+        .footer-sec .contact-sec .contact-side ul li.social-items a i {
+          background-color: #ffbb00;
+          border-radius: 50%;
+          padding: 10px; }
+        .footer-sec .contact-sec .contact-side ul li.social-items a .fa-facebook-f {
+          padding: 10px 13px; }
+  .footer-sec .contact-sec .comment-side ul.comment-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px; }
+    .footer-sec .contact-sec .comment-side ul.comment-list li input {
+      width: 100%;
+      background: transparent;
+      color: rgba(255, 255, 255, 0.49);
+      border: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.49);
+      font-style: italic;
+      font-weight: bold;
+      font-size: 12px;
+      padding-bottom: 10px;
+      margin-bottom: 18px; }
+      .footer-sec .contact-sec .comment-side ul.comment-list li input:hover, .footer-sec .contact-sec .comment-side ul.comment-list li input:focus {
+        border-bottom: 2px solid #ffbb00;
+        transition: .4s; }
+    .footer-sec .contact-sec .comment-side ul.comment-list li textarea {
+      background: transparent;
+      color: rgba(255, 255, 255, 0.49);
+      border: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.49);
+      width: 100%; }
+      .footer-sec .contact-sec .comment-side ul.comment-list li textarea:hover, .footer-sec .contact-sec .comment-side ul.comment-list li textarea:focus {
+        border-bottom: 2px solid #ffbb00;
+        transition: .4s; }
+    .footer-sec .contact-sec .comment-side ul.comment-list li.button-item {
+      margin: 40px 0; }
+      .footer-sec .contact-sec .comment-side ul.comment-list li.button-item a {
+        color: #1a1a1a;
+        background-color: #ffbb00;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 20px 30px;
+        font-weight: bold; }
+        .footer-sec .contact-sec .comment-side ul.comment-list li.button-item a:hover {
+          background-color: #eeaf00;
+          transition: .4s; }
+  .footer-sec .copyright {
+    margin-top: 40px; }
+    .footer-sec .copyright p {
+      color: #454545;
+      font-size: 12px;
+      font-weight: bold; }
 
 /*# sourceMappingURL=style1.css.map */

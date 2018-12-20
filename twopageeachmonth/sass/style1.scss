@@ -302,15 +302,87 @@ body{
                     }
                 }
                 li.social-items{
-                    i{
-                        background-color: $yellow;
-                        border-radius: 50%;
+                    justify-content: space-between;
+                    margin-top: 33px;
+                    a{
+                        color: #fff;
+                        &:hover{
+                            i{
+                                background-color: #fff;
+                                color: #1a1a1a;
+                                transition: .5s;
+                            }
+                        }
+                        i{
+                            background-color: $yellow;
+                            border-radius: 50%;
+                            padding: 10px;
+                        }
+                        .fa-facebook-f{
+                            padding: 10px 13px;
+                        }
                     }
                 }
             }
         }
         .comment-side{
-            
+            ul.comment-list{
+                list-style-type: none;
+                padding: 0;
+                margin-top: 40px;
+                li{
+                    input{
+                        width: 100%;
+                        background: transparent;
+                        color: rgba(255,255,255,0.49);
+                        border: none;
+                        border-bottom: 2px solid rgba(255,255,255,0.49);
+                        font-style: italic;
+                        font-weight: bold;
+                        font-size: 12px;
+                        padding-bottom: 10px;
+                        margin-bottom: 18px;
+                        &:hover, &:focus{
+                            border-bottom: 2px solid $yellow;
+                            transition: .4s;
+                        }
+                    }
+                    textarea{
+                        background: transparent;
+                        color: rgba(255,255,255,0.49);
+                        border: none;
+                        border-bottom: 2px solid rgba(255,255,255,0.49);
+                        width: 100%;
+                        &:hover, &:focus{
+                            border-bottom: 2px solid $yellow;
+                            transition: .4s;
+                        }
+                    }
+                }
+                li.button-item{
+                    margin: 40px 0;
+                    a{
+                        color: #1a1a1a;
+                        background-color: $yellow;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        padding: 20px 30px;
+                        font-weight: bold;
+                        &:hover{
+                            background-color: #eeaf00;
+                            transition: .4s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        margin-top: 40px;
+        p{
+            color: #454545;
+            font-size: 12px;
+            font-weight: bold;
         }
     }
 }
